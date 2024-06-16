@@ -1,0 +1,36 @@
+<!--created by prashant shukla-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ping Pong</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+     
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>   
+
+    </head>
+    <body background="background1.jpg">
+      <center>
+        <div class="btn btn-info headin">
+          <h1>AI Mario Game</h1>
+          <button data-toggle="modal" class="btn btn-danger" data-target="#mymodal"> 
+            Instructions
+          </button>
+        </div>
+        <button class="btn btn-success" onclick="start()" id="star">Start The Game</button>
+        <br>
+        <br>
+        <h2 id="stat" class="btn btn-warning"></h2>
+        <br>
+        <br>
+        <div id="canva" >
+        </div>
+      </center>
+        <script src="main.js"></script>
+    </body>
+</html>
